@@ -1,9 +1,7 @@
 import java.util.ArrayList;
-import java.util.Date;
 
 class Main {
-  
-  
+    
   public static void main(String[] args) {    
 
     //Instancia de produtos das cozinhas    
@@ -48,8 +46,7 @@ class Main {
     System.out.println("Funcionários da cozinha: " + cozMineira.nomeRestaurante);       
     cozMineira.ImprimirFuncionarios();
     
-    //Cozinha Chinesa
-    
+    //Cozinha Chinesa    
     ArrayList<Ingrediente> ingredientesCozinhaChinesa = new ArrayList<Ingrediente>();
     ingredientesCozinhaChinesa.add(champignon);
     ingredientesCozinhaChinesa.add(macarrao);
@@ -76,9 +73,7 @@ class Main {
     System.out.println("Funcionários da cozinha: " + cozinhaChinesa.nomeRestaurante);        
     cozinhaChinesa.ImprimirFuncionarios();
 
-    //Cozinha Italiana
-
-    
+    //Cozinha Italiana    
     ArrayList<Ingrediente> ingredientesCozinhaItaliana = new ArrayList<Ingrediente>();
     ingredientesCozinhaItaliana.add(molho);
     ingredientesCozinhaItaliana.add(macarrao);
@@ -103,9 +98,5 @@ class Main {
     System.out.println("");    
     System.out.println("Funcionários da cozinha: " + cozinhaItaliana.nomeRestaurante);        
     cozinhaItaliana.ImprimirFuncionarios();
-
-    
-
-
   }
 }

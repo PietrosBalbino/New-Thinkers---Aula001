@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Date;
 
 public abstract class  Cozinha {
 
@@ -29,29 +28,12 @@ public abstract class  Cozinha {
     this.pratoPrincipal = pratoPrincipal;
     this.nomeRestaurante = nomeRestaurante;
     this.numeroPratos = numeroPratos;
-    this.tempoPreparo = tempoPreparo;
-    
+    this.tempoPreparo = tempoPreparo;    
   }
 
   public Cozinha (ArrayList<Funcionario> Funcionarios){
     this.Funcionarios = Funcionarios;
   }
-
-  public int getHoraFechar(){
-    return horaFechar;
-  }
-
-  // public void setHoraFechar(int horaFechar){
-  //   this.horaFechar = horaFechar;
-  // }
-
-  public int getHoraAbrir(){
-    return horaAbrir;
-  }
-
-  // public void setHoraAbrir(int horaAbrir){
-  //   this.horaAbrir = horaAbrir;
-  // }
 
   void Saudacao() {
     System.out.println();

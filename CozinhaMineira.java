@@ -1,10 +1,8 @@
 import java.util.ArrayList;
 
-
 public class CozinhaMineira extends Cozinha {
 
-  public CozinhaMineira (
-    
+  public CozinhaMineira (    
     String nomeRestaurante, 
     ArrayList<Ingrediente> Ingredientes,
     ArrayList<Funcionario> Funcionarios,
@@ -13,6 +11,5 @@ public class CozinhaMineira extends Cozinha {
     int tempoPreparo) {
     super(TipoCozinha.Mineiro, nomeRestaurante, Ingredientes, Funcionarios, pratoPrincipal, numeroPratos, tempoPreparo);
   } 
-
 }
 

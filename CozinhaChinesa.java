@@ -1,10 +1,8 @@
 import java.util.ArrayList;
 
-
 public class CozinhaChinesa extends Cozinha {
 
-  public CozinhaChinesa (
-    
+  public CozinhaChinesa (    
     String nomeRestaurante, 
     ArrayList<Ingrediente> Ingredientes,
     ArrayList<Funcionario> Funcionarios,
